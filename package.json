@@ -47,6 +47,7 @@
     "build": "run-p build:**",
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
+    "disable-telemetry": "gatsby telemetry --disable",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
